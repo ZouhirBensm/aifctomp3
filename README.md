@@ -1,9 +1,9 @@
-# aifctomp3
+# aifftomp3
 
-This project is a Node.js application designed to serve an HTML page and handle audio-related tasks, specifically serving `.aifc` audio files and converting them to `.mp3`. The app is hosted on **Render.com** using the free plan.
+This project is a Node.js application designed to serve an HTML page and handle audio-related tasks, specifically serving `.aiff` audio files and converting them to `.mp3`. The app is hosted on **Render.com** using the free plan.
 
 The app is available in render at:  
-[https://aifctomp3.onrender.com/](https://aifctomp3.onrender.com/)
+[https://aifftomp3.onrender.com/](https://aifftomp3.onrender.com/)
 
 ## Features
 
@@ -25,8 +25,8 @@ The app is available in render at:
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/your-username/aifctomp3.git
-    cd aifctomp3
+    git clone https://github.com/your-username/aifftomp3.git
+    cd aifftomp3
     ```
 
 2. Install the dependencies:
@@ -58,13 +58,13 @@ The app is available in render at:
     This will start the server on the specified `PORT`. The command triggers the following:
 
     ```bash
-    nodemon aifctomp3.js
+    nodemon aifftomp3.js
     ```
 
 3. To run in **render mode**, set `NODE_ENV` to `render`:
 
     ```bash
-    node aifctomp3.js
+    node aifftomp3.js
     ```
 
 ## Deployment to Render
@@ -80,14 +80,14 @@ This project is deployed on Render’s free plan. To deploy it:
 3. **Set up the service**:  
    - Select **Node.js** as the environment.
    - Set the **Build Command** to `npm install`.
-   - Set the **Start Command** to `node aifctomp3.js`.
+   - Set the **Start Command** to `node aifftomp3.js`.
    - Set the **ENV variables** to PORT=3000.
 
 4. **Deploy the app**:  
    Once you connect your repository, Render will automatically deploy the app and set up a render environment.
 
 5. After deployment, you can access the app at:  
-   [https://aifctomp3.onrender.com/](https://aifctomp3.onrender.com/)
+   [https://aifftomp3.onrender.com/](https://aifftomp3.onrender.com/)
 
 ## Graceful Shutdown
 
